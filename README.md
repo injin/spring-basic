@@ -31,7 +31,23 @@
 ### 6.1 컴포넌트 스캔과 의존관계 자동 주입 시작하기
 - AutoAppConfig.java
 - AutoAppConfigTest.java
+### 6.3 필터
+- MyIncludeComponent.java
+- MyExcludeComponent.java
+- ComponentFilterAppConfigTest.java
 
+---
+## 7. 의존관계 자동 주입
+### 7.2 옵션처리
+- AutowiredTest.java
+### 7.7 애노테이션 직접 만들기
+- MainDiscountPolicy.java
+### 7.8 조회한 빈이 모두 필요할 때, List, Map
+- AllBeanTest.java
 
-
+---
+## 8. 빈 생명주기 콜백
+### 8.1 빈 생명주기 콜백 시작
+- NetworkClient.java
+- BeanLifeCycleTest.java
 
