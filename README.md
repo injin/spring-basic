@@ -51,3 +51,17 @@
 - NetworkClient.java
 - BeanLifeCycleTest.java
 
+---
+## 9. 빈 스코프
+### 9.1 프로토타입 스코프
+- SingletonTest.java
+### 9.2 프로토타입 스코프 - 싱글톤 빈과 함께 사용시 문제점
+- SingletonWithPrototypeTest1.java
+### 9.3 프로토타입 스코프 - 싱글톤 빈과 함께 사용시 Provider로 문제 해결
+- PrototypeProviderTest.java
+### 9.4 request 스코프 예제 만들기 ~ 9.5 스코프와 Provider
+- MyLogger.java
+- LogDemoController.java
+- LogDemoService.java
+- CoreApplication.java
+
